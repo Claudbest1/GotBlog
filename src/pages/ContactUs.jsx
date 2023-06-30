@@ -19,9 +19,9 @@ const ContactUs = () => {
         <label htmlFor="" className='py-5'>Your email</label>
         <input type="email" name="" id="" placeholder='Email' className='border border-1 py-4 px-6 rounded-full' />
         <label htmlFor="" className='pt-10 pb-5'>What can we help you with?</label>
-          <textarea id="message" rows="4" class='block p-7 border border-1 rounded-3xl h-[268px]' placeholder="Message..."></textarea>
+          <textarea id="message" rows="4" class='block p-7 border border-1 rounded-3xl h-[270px]' placeholder="Message..."></textarea>
           <label htmlFor="" className='pt-10 pb-5'>Personal Suggestions?</label>
-          <textarea id="message" rows="4" class='block p-7 w-full border border-1 rounded-3xl h-[268px] mb-[80px]' placeholder="Message..."></textarea>
+          <textarea id="message" rows="4" class='block p-7 w-full border border-1 rounded-3xl h-[270px] mb-[80px]' placeholder="Message..."></textarea>
           
         </form>
         <form action="" className='flex justify-center'>
