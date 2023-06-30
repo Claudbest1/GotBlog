@@ -7,7 +7,7 @@ import { Hero } from '../data'
 const hero = () => {
   return (
 
-    <div className='md:px-[60px] sm:px-[20px] mt-[40px] md:mb-[100px] sm:mb-[40px] mt-[100px] md:mt-[200px]'>
+    <div className='md:px-[60px] sm:px-[20px] mt-[100px] md:mb-[100px] sm:mb-[40px] mt-[100px] md:mt-[200px]'>
       <ul className='flex gap-10 overflow-hidden'>
       {
         Hero.map(({ img, category, date, title, paragraph, author, timeStamp }, index) => {
