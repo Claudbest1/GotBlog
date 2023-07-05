@@ -1,5 +1,6 @@
 import React from 'react'
 import { NewsData } from './NewsData'
+import Arrow from '../assets/Return Arrown.png'
 
 
 const News = () => {
@@ -15,7 +16,7 @@ const News = () => {
         <h2 className='font-bold text-[18px] mb-[20px]'>Latest News</h2>
         {NewsData.map(({ img, category, date, title, article, timeStamp }, index) => {
           return (
-            <div className='shadow-md rounded-xl sm:mb-5'>
+            <div className='shadow-lg rounded-xl mb-5 px-3'>
               <img src={img} alt={img} className='xl:w-full'/>
               <div className='p-5 sm:p-2'>
                 <div className=' sm:flex gap-5 mb-5 sm:text-[10px]'>
@@ -24,7 +25,7 @@ const News = () => {
               </div>
               <h3 className='text-xl font-bold mb-5 sm:text-[18px] '>{title}</h3>
               <p className='mb-5 sm:text-[14px]'>{article}</p>
-              <h4 className='sm:text-[10px]'>{timeStamp}</h4>
+              <h4 className='text-[10px] mb-5'>{timeStamp}</h4>
               </div>
               
             </div>
@@ -34,7 +35,9 @@ const News = () => {
       <div className='flex justify-center mt-[40px]'>
         <button className='bg-blue text-white md:p-5 px-5 py-3 rounded-lg'>See More</button>
       </div>
-
+      <div className='flex justify-end relative fixed'>
+        <img src={Arrow} alt="" />
+        </div>
       
     </div>
   )

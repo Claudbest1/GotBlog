@@ -2,7 +2,7 @@ import React from 'react'
 
 const CTA = () => {
   return (
-      <div className='w-full h-auto bg-deep-blue md:mb-[100px] font-sans1 px-[30px] sm:mb-[40px]'>
+      <div className='w-full h-auto bg-deep-blue md:mb-[100px] font-sans1 px-[30px] mb-[40px]'>
           <div className='md:flex justify-center content-center gap-[40px] md:p-[127px] sm:py-20 text-center md:text-left'>
               <div className=''>
                   <h2 className='text-white text-2xl font-bold'>Subscribe</h2>
