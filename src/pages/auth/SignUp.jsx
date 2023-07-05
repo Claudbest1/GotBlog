@@ -66,8 +66,8 @@ const SignUp = () => {
               <div className='w-[300px]'>
                   <span className='absolute flex items-center pl-2 pt-3'><MdEmail  className='text-gray'/>
                   </span>
-                <input
-                      type='E-mail'
+          <input
+                      type='e-mail'
                       name='email'
                       placeholder='Enter email'
                       className='border border-blue rounded-md p-2 pl-8 mb-3 w-[300px]'

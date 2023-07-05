@@ -4,14 +4,15 @@ import { NewsData } from './NewsData'
 
 const News = () => {
   return (
-    <div className='md:px-[100px] sm:mb-[60px] sm:px-[20px] '>
-      <div className='flex gap-10 sm:gap-5 mt-[60px] overflow-x-scroll md:justify-center scrollbar-hide p-3 '>
+    <div className='md:px-[100px] mb-[60px] px-[32px] '>
+      <div className='flex gap-10 sm:gap-5 mt-[60px] overflow-x-scroll md:justify-center scrollbar-hide p-3 font-sans1'>
           <button className='bg-blue drop-shadow-md py-3 px-10 rounded-xl text-white sm:text-[14px] '>All</button>
-          <button className='bg-white shadow-md py-3 px-10 md:rounded-xl sm:rounded-md bg:gray'>Entertainment</button>
-          <button className='bg-white shadow-md py-3 px-10 rounded-xl'>Events</button>
-          <button className='bg-white shadow-md py-3 px-10 rounded-xl'>Agriculture</button>
+          <button className='bg-white shadow-md py-3 px-10 md:rounded-xl sm:rounded-md bg-[#EEECEC]'>Entertainment</button>
+          <button className='bg-white shadow-md py-3 px-10 rounded-xl bg-[#EEECEC]'>Events</button>
+          <button className='bg-white shadow-md py-3 px-10 rounded-xl bg-[#EEECEC]'>Agriculture</button>
       </div>
       <div className='grid md:grid-cols-2 sm:grid-cols-1 gap-10 sm:gap-3 mt-[60px] place-content-center'>
+        <h2 className='font-bold text-[18px] mb-[20px]'>Latest News</h2>
         {NewsData.map(({ img, category, date, title, article, timeStamp }, index) => {
           return (
             <div className='shadow-md rounded-xl sm:mb-5'>
@@ -30,6 +31,11 @@ const News = () => {
           )
         })}
       </div>
+      <div className='flex justify-center mt-[40px]'>
+        <button className='bg-blue text-white md:p-5 px-5 py-3 rounded-lg'>See More</button>
+      </div>
+
+      
     </div>
   )
 }

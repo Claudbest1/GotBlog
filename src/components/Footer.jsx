@@ -8,7 +8,7 @@ import { Link, NavLink } from 'react-router-dom'
 const Footer = () => {
   return (
     <>
-    <div className='md:flex justify-between md:px-[100px] sm:px-[20px] font-sans1 sm:pb-[40px] border-b border-gray sm:mb-5 bg-[#EEECEC] py-[20px] md:py-[100px]'>
+    <div className='md:flex justify-between md:px-[100px] sm:px-[20px] font-sans1 sm:pb-[40px] border-b border-gray sm:mb-5  py-[20px] md:py-[100px]'>
       <div className=' md:mb-[100px] sm:mb-[40px]'>
           <div className='flex md:justify-start mb-5 '>
             <img src={Logo} alt="" className='w-[150px]' />
