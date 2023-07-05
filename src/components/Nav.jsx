@@ -12,7 +12,7 @@ const Nav = () => {
 
   return (
     <>
-      <div className='w-full md:flex md:justify-between border-b border-gray md:items-center sm:p-[20px] md:px-[60px] fixed top-0 bg-white'>
+      <div className='w-full md:flex md:justify-between md:items-center sm:p-[20px] md:px-[60px] fixed top-0 bg-white shadow-lg'>
         {isNavShowing && <div className='w-full h-screen absolute' onClick={() => setIsNavShowing(false)}></div>}
         <div className='flex justify-between items-center'>
           <Link to="/" onClick={() => setIsNavShowing(false)}>

@@ -18,7 +18,7 @@ const hero = () => {
         <img src={img} alt="Ferris wheel" className='w-full sm:mb-5'/>
       </div>
       <div>
-        <div className='md:mb-10 lg:mb-2 xl:mb-5 sm:mb-2 p-2'>
+        <div className='md:mb-10 lg:mb-2 xl:mb-5 sm:mb-2 p-2 font-sans1 font-medium text-[14px]'>
           <span className='mr-5 text-blue font-sans1 font-medium text-[14px]'>{category}</span>
           {date}
         </div>
