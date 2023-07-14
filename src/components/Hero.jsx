@@ -4,9 +4,13 @@ import { Carousel } from 'react-responsive-carousel'
 import { Hero } from '../data'
 
 
-const hero = () => {
-  return (
 
+
+
+const hero = () => {
+ 
+  return (
+     
     <div className='md:px-[60px] px-[30px] mt-[100px] md:mb-[100px] sm:mb-[40px] mt-[100px] md:mt-[200px] '>
       <ul className='flex gap-10 overflow-hidden'>
       {
