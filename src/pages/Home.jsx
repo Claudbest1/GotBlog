@@ -11,10 +11,12 @@ const Home = () => {
 
    // Function to handle scrolling and show/hide the arrow
   const handleScroll = () => {
-    if (window.pageYOffset > 300) {
+    if (window.scrollY > 300) {
       setIsVisible(true);
+      
     } else {
       setIsVisible(false);
+      
     }
   };
 
@@ -35,9 +37,11 @@ const Home = () => {
     <main className="relative">
       <HeroSlider />
       <News />
-      <div className='flex w-full h-[50px] text-blue align-middle justify-end pr-[32px] relative' onClick={scrollToTop}>
-        <BsFillArrowUpCircleFill className='text-[40px] absolute hover:bg-deepblue' aria-hidden="true"/>
-      </div>
+      {
+        isVisible && <div className='flex text-blue fixed bottom-10 right-10 rounded-full border-radius-50% bg-white' onClick={scrollToTop}>
+        <BsFillArrowUpCircleFill className='text-[40px]  hover:bg-deepblue drop-shadow-lg' aria-hidden="true"/>
+      </div> 
+      }
       <CTA />
       <Footer />
       
