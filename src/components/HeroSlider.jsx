@@ -22,7 +22,6 @@ const HeroSlider = () => {
       // navigation
       pagination={true}
       // scrollbar={{ draggable: true }}
-      
     >
       
         <div className='md:px-[60px] px-[30px] mt-[100px] md:mb-[100px] sm:mb-[40px] mt-[100px] md:mt-[200px] z-[-1]'>
@@ -45,7 +44,7 @@ const HeroSlider = () => {
         <p className='lg:mb-2 xl:mb-5 font-sans1 mb-4'>
           {paragraph}
         </p>
-        <div className='text-[14px]'>
+        <div className='text-[14px] mb-5'>
           <span className='mr-5 text-blue font-sans1'>{author}</span>
           {timeStamp}
         </div>
