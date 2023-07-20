@@ -1,4 +1,8 @@
 import FerrisWheel from '../src/assets/ferris wheel.png'
+import Fruits from '../src/assets/Fruits.png'
+import Coding from '../src/assets/coding.png'
+import VR from '../src/assets/VR.png'
+
 
 
 export const links = [
@@ -27,7 +31,7 @@ export const Hero = [
         timeStamp: "2 mins read"
     },
     {
-        img: FerrisWheel,
+        img: Fruits,
         category: "Events",
         date: "Dec 22, 2022",
         title: "An Organization of parties out has been released as the goal for the year 2023",
@@ -36,7 +40,7 @@ export const Hero = [
         timeStamp: "2 mins read"
     },
     {
-        img: FerrisWheel,
+        img: Coding,
         category: "Tech",
         date: "Dec 22, 2022",
         title: "An Organization of parties out has been released as the goal for the year 2023",
@@ -45,7 +49,7 @@ export const Hero = [
         timeStamp: "2 mins read"
     },
     {
-        img: FerrisWheel,
+        img: VR,
         category: "Agriculture",
         date: "Dec 22, 2022",
         title: "An Organization of parties out has been released as the goal for the year 2023",
